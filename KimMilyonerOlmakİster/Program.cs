@@ -59,7 +59,10 @@ if (countTrue<1) {
     return;
 }
 
-
+if (countTrue==2) {
+    Console.WriteLine("Yarışmayı kazandınız.Tebrikler. ");
+    return;
+}
 Console.WriteLine("Soru 3 : Türkiye Cumhuriyet Bayramı ilk ne zaman kutlandı? \n A)29 Ekim 1925 B)29 Ekim 1933 ");
 selected = char.TryParse(Console.ReadLine(), out selectedValue);
 if (selected)
